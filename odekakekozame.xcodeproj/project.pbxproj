@@ -16,6 +16,15 @@
 		728A3B4529A8461400B6AF75 /* odekakekozameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A3B4429A8461400B6AF75 /* odekakekozameTests.swift */; };
 		728A3B4F29A8461400B6AF75 /* odekakekozameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A3B4E29A8461400B6AF75 /* odekakekozameUITests.swift */; };
 		728A3B5129A8461400B6AF75 /* odekakekozameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728A3B5029A8461400B6AF75 /* odekakekozameUITestsLaunchTests.swift */; };
+		728D736E29AF27A200469C9E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 728D736D29AF27A200469C9E /* FirebaseAuth */; };
+		728D737029AF27A200469C9E /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 728D736F29AF27A200469C9E /* FirebaseAuthCombine-Community */; };
+		728D737229AF27A200469C9E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 728D737129AF27A200469C9E /* FirebaseFirestore */; };
+		728D737429AF27A200469C9E /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 728D737329AF27A200469C9E /* FirebaseFirestoreCombine-Community */; };
+		728D737629AF27A200469C9E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 728D737529AF27A200469C9E /* FirebaseFirestoreSwift */; };
+		728D737829AF27A200469C9E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 728D737729AF27A200469C9E /* FirebaseStorage */; };
+		728D737A29AF27A200469C9E /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 728D737929AF27A200469C9E /* FirebaseStorageCombine-Community */; };
+		728D737C29AF280400469C9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728D737B29AF280300469C9E /* GoogleService-Info.plist */; };
+		728D737E29AF2A8700469C9E /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D737D29AF2A8700469C9E /* cameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,8 @@
 		728A3B4A29A8461400B6AF75 /* odekakekozameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odekakekozameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		728A3B4E29A8461400B6AF75 /* odekakekozameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odekakekozameUITests.swift; sourceTree = "<group>"; };
 		728A3B5029A8461400B6AF75 /* odekakekozameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odekakekozameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		728D737B29AF280300469C9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		728D737D29AF2A8700469C9E /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728D737629AF27A200469C9E /* FirebaseFirestoreSwift in Frameworks */,
+				728D737A29AF27A200469C9E /* FirebaseStorageCombine-Community in Frameworks */,
+				728D736E29AF27A200469C9E /* FirebaseAuth in Frameworks */,
+				728D737429AF27A200469C9E /* FirebaseFirestoreCombine-Community in Frameworks */,
+				728D737029AF27A200469C9E /* FirebaseAuthCombine-Community in Frameworks */,
+				728D737229AF27A200469C9E /* FirebaseFirestore in Frameworks */,
+				728D737829AF27A200469C9E /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +124,8 @@
 				728A3B3629A8461400B6AF75 /* Assets.xcassets */,
 				728A3B3829A8461400B6AF75 /* LaunchScreen.storyboard */,
 				728A3B3B29A8461400B6AF75 /* Info.plist */,
+				728D737B29AF280300469C9E /* GoogleService-Info.plist */,
+				728D737D29AF2A8700469C9E /* cameraViewController.swift */,
 			);
 			path = odekakekozame;
 			sourceTree = "<group>";
@@ -143,6 +163,15 @@
 			dependencies = (
 			);
 			name = odekakekozame;
+			packageProductDependencies = (
+				728D736D29AF27A200469C9E /* FirebaseAuth */,
+				728D736F29AF27A200469C9E /* FirebaseAuthCombine-Community */,
+				728D737129AF27A200469C9E /* FirebaseFirestore */,
+				728D737329AF27A200469C9E /* FirebaseFirestoreCombine-Community */,
+				728D737529AF27A200469C9E /* FirebaseFirestoreSwift */,
+				728D737729AF27A200469C9E /* FirebaseStorage */,
+				728D737929AF27A200469C9E /* FirebaseStorageCombine-Community */,
+			);
 			productName = odekakekozame;
 			productReference = 728A3B2A29A8461200B6AF75 /* odekakekozame.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 728A3B2129A8461200B6AF75;
+			packageReferences = (
+				728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 728A3B2B29A8461200B6AF75 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				728A3B3A29A8461400B6AF75 /* LaunchScreen.storyboard in Resources */,
+				728D737C29AF280400469C9E /* GoogleService-Info.plist in Resources */,
 				728A3B3729A8461400B6AF75 /* Assets.xcassets in Resources */,
 				728A3B3529A8461200B6AF75 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				728A3B3229A8461200B6AF75 /* ViewController.swift in Sources */,
+				728D737E29AF2A8700469C9E /* cameraViewController.swift in Sources */,
 				728A3B2E29A8461200B6AF75 /* AppDelegate.swift in Sources */,
 				728A3B3029A8461200B6AF75 /* SceneDelegate.swift in Sources */,
 			);
@@ -366,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,23 +471,32 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVH687AC7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = odekakekozame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "思い出子ザメ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用するために許可が必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "編集した画像をフォトライブラリーに保存します";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "アプリ内で編集する画像をフォトライブラリーから呼び出します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hosonuma.sakki.odekakekozame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosonuma.sakki.omoidekozame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,23 +507,32 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TVH687AC7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = odekakekozame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "思い出子ザメ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用するために許可が必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "編集した画像をフォトライブラリーに保存します";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "アプリ内で編集する画像をフォトライブラリーから呼び出します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hosonuma.sakki.odekakekozame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hosonuma.sakki.omoidekozame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -596,6 +648,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		728D736D29AF27A200469C9E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		728D736F29AF27A200469C9E /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		728D737129AF27A200469C9E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		728D737329AF27A200469C9E /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		728D737529AF27A200469C9E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		728D737729AF27A200469C9E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		728D737929AF27A200469C9E /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728D736C29AF27A200469C9E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 728A3B2229A8461200B6AF75 /* Project object */;
 }
