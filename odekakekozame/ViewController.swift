@@ -581,5 +581,5 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     
     
-    
+    //メイン
 }
